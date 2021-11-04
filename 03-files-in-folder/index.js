@@ -14,7 +14,6 @@ fs.readdir(PATH, { withFileTypes: true }, (err, files) => {
                 const size = `${Math.ceil(stats.size / 1024)}kb`
                 console.log(`${name} - ${extension} - ${size}`)
             })
-
         }
     })
 })
